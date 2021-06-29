@@ -2,13 +2,13 @@
  <div id="app">
     <h1>メモ  帳</h1>
     <div>
-      <label for="title">タイトル：</label>
+      <label for="title">title：</label>
       <input type="text" v-model="title" placeholder="タイトル">
     </div>
     <div class="text">
       <div class="form-floating">
         <textarea style="max-width:380px;margin-bottom:10px" v-model="body" class="form-control"></textarea>
-  <label for="floatingTextarea">内容</label>
+  <label for="floatingTextarea">content</label>
   <button class="btn btn-primary" @click="addList">メモ追加</button>
       </div>
     </div>
